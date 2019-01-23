@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="260.0" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="firstinnb.FXMLDocumentController">
+   <children>
+      <Button layoutX="126.0" layoutY="91.0" mnemonicParsing="false" onAction="#button" prefHeight="37.0" prefWidth="69.0" style="-fx-background-color: #F79622;" text="insert" textFill="#081534">
+         <effect>
+            <InnerShadow color="#eb8900" />
+         </effect>
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Button>
+      <Label fx:id="lab_out" cache="true" layoutX="77.0" layoutY="195.0" prefHeight="37.0" prefWidth="166.0" style="-fx-background-color: #F79622;" textFill="#081534">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow color="#eb8900" />
+         </effect></Label>
+      <TextField fx:id="textbox" layoutX="77.0" layoutY="29.0" prefHeight="47.0" prefWidth="166.0" style="-fx-background-color: #F79622;">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow color="#eb8900" />
+         </effect></TextField>
+      <Label fx:id="lab_out1" cache="true" layoutX="77.0" layoutY="139.0" prefHeight="37.0" prefWidth="166.0" style="-fx-background-color: #F79622;" textFill="#081534">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow color="#eb8900" />
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>
